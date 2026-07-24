@@ -1,0 +1,66 @@
+Support Ticket Classification using NLP
+
+ Project Overview
+
+This project builds a Machine Learning model to automatically classify customer support tickets into different categories using Natural Language Processing (NLP).
+
+The project demonstrates the complete NLP pipeline, including text preprocessing, feature extraction using TF-IDF, and text classification using Machine Learning algorithms.
+
+ Dataset
+
+- Customer Support Tickets Dataset
+- Total Records: 8469
+- Features: 17
+
+ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- NLTK
+- Scikit-learn
+
+NLP Pipeline
+
+- Data Loading
+- Data Cleaning
+- Text Preprocessing
+- Tokenization
+- Stopword Removal
+- Lemmatization
+- TF-IDF Vectorization
+- Train-Test Split
+- Model Training
+- Model Evaluation
+- Prediction
+
+
+Machine Learning Models
+
+- Multinomial Naive Bayes
+- Logistic Regression
+
+
+ Results
+
+| Model | Accuracy |
+|--------|----------|
+| Multinomial Naive Bayes | 18.71% |
+| Logistic Regression | 19.83% |
+
+Logistic Regression achieved slightly better performance than Naive Bayes.
+
+
+Future Improvements
+
+- Use BERT or DistilBERT
+- Hyperparameter tuning
+- Feature engineering
+- More informative ticket descriptions
+
+
+Author
+
+Vasupradha Sundar
